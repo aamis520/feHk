@@ -1,0 +1,31 @@
+{
+  "common": {
+
+  },
+  "user": {
+
+  },
+  "assets": {
+
+  },
+  "otc": {
+
+  },
+  "account": {
+    "allAssets": "總資產",
+    "assetsType": "資產種類",
+    "exchangeNumber": "交易金額",
+    "price": "價格",
+    "number": "數量",
+    "orderCancel": "訂單取消"
+  },
+  "convert": {
+
+  },
+  "openCard": {
+
+  },
+  "quotation": {
+
+  }
+}

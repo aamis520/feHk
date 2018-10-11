@@ -1,0 +1,210 @@
+.order{
+  // .icon-success{
+  //   background-image: url(~@/assets/images/扫描.png)
+  // }
+  .orderTitle{
+    flex: 1;
+    font-family: PingFangSC-Regular;
+    font-size: 14px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+  }
+   .mint-tab-item{
+      color: white;
+      opacity: 0.3;
+    }
+    .mint-tab-item.is-selected{
+      color: #26a2ff;
+      font-size: 14px; /*no*/
+      opacity: 1;
+    }
+    .mint-tab-item-label{
+      font-size: 14px !important;
+    }
+  .mint-navbar{
+    // opacity: 0.3;
+    background: #24242F;
+  }
+  .headerText{
+    font-family: PingFangSC-Regular;
+    font-size: 14px; /*no*/
+    color: #4DC379;
+    letter-spacing: 0;
+    margin-right: 10px;
+  }
+  .contentTitle{
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .contentTime{
+    line-height: 25px;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 10px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+  .transNum{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    .price{
+      position: relative;
+      left: 6px;
+      top: 27px;
+      opacity: 0.5;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+    }
+    .limitPrice{
+      position: absolute;
+      left: 6px;
+      top: 21px;
+      opacity: 0.5;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+    }
+    .limitTo{
+      position: absolute;
+      left: 48%;
+      top: 21px;
+      opacity: 0.5;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+    }
+    .number {
+      background: transparent;
+      border: none;
+      width: calc(100% - 20px);
+      line-height: 41px;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+      padding: 0 40px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);/*no*/
+    }
+    .limitNumber {
+      margin-top: 10px;
+      background: transparent;
+      border: none;
+      width: calc(50% - 8px);
+      line-height: 41px;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+      padding: 0 39px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);/*no*/
+    }
+    .transNumRight{
+      position: absolute;
+      right: 15px;
+      top: 29px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: right;
+    }
+  .mint-button--normal{
+      margin-left: 20px;
+      background: #57576B;
+      border-radius: 6px;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: right;
+      padding: 0 25px;
+    }
+  }
+ .xc-cell{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  -webkit-align-items:center;
+  align-items:center;
+  -webkit-justify-content:center;
+  justify-content:center;
+  color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);/*no*/
+  .cell-left,.cell-right{
+    width: 40px;
+    text-align: center;
+  }
+  .cell-wrapper{
+    flex: 1;
+    display: flex;
+    padding-bottom:12px;
+    .content-left,.content-right{
+      flex: 1;
+    }
+    .content-left{
+      text-align: left;
+    }
+    .content-right{
+      text-align: right
+    }
+  }
+  .title{
+    opacity: 0.5;
+    font-size: 10px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-bottom: 6px;
+  }
+  .desc{
+    opacity: 0.2;
+    font-size: 14px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+}
+}
+.orderFooter{
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 25px;
+  .saveBtn{
+    width:80%;margin: 0 auto;
+    font-family: PingFangSC-Regular;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px; /*no*/
+    letter-spacing: 0.29px;
+    background-image: linear-gradient(131deg, #4CE6F9 0%, #4C54F9 100%);
+  }
+}
+.codePop{
+  height: 20%;
+  width: 90%;
+  .saveBtn{
+    width:40%;
+  }
+  .cancelBtn{
+    margin-left:5%;
+    width:40%;
+  }
+}
+.closePop{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 20px;
+    top: 20px;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,181 @@
+.header{
+  border-bottom: 1px solid #393948;
+  // height:calc(100% - 120px);
+  width: 100%;
+  overflow-y: scroll;
+  .headContent{
+    height:100%;
+    text-align: center;
+    flex: 1;
+    .headPic{
+      background: #D8D8D8;
+      display: block;
+      margin:5px 0  0 25px;
+      float: left;
+      height: 44px;
+      width: 44px;
+      border-radius: 50%;
+      // border: 1px solid red;
+
+    }
+    .headName{
+      margin-bottom: 20px;
+      line-height: 20px;
+      position: relative;
+      height:18px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: center;
+    }
+    .headDate{
+      opacity: 0.5;
+      font-family: PingFangSC-Regular;
+      font-size: 10px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: center;
+    }
+    .headUser{
+      float: left;
+      padding-left: 20px;
+      text-align: left;
+      .headName{
+        left: 0;
+        text-align: left;
+      }
+    }
+  }
+}
+.payInfo{
+  background: #393948;
+  border-radius: 6px;
+  margin-left:10px;
+  width: calc(100% - 20px);
+  height: 150px;
+  .bankUserZhifubao{
+    margin:0 20px 0 50px;
+    height: 30px;
+    background: #31313F;
+    .bankUserInfoTop{
+      line-height: 30px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0.25px;
+      .remark{
+        float: left;
+        opacity: 0.5;
+        font-family: PingFangSC-Regular;
+        font-size: 14px; /*no*/
+        color: #FFFFFF;
+        letter-spacing: 0.25px;
+      }
+    }
+  }
+  .bankUserInfo{
+    margin:0 20px 0 50px;
+    height: 60px;
+    background: #31313F;
+    .bankUserInfoTop{
+      line-height: 30px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0.25px;
+    }
+    .bankUserInfoSchool{
+      line-height: 30px;
+      opacity: 0.5;
+      font-family: PingFangSC-Regular;
+      font-size: 14px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0.25px;
+    }
+  }
+  .title{
+    margin-left: 25px;
+    padding-top:20px;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0.29px;
+  }
+  .bankName{
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+    line-height: 25px;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 14px; /*no*/
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+  }
+}
+.container{
+  margin-left:10px;
+  margin-top:20px;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+  background-color: #424254;
+  color: #fff;
+  display: flex;
+  p{
+    height: 20px;
+    margin:10px 0 10px 30px;
+    font-family: PingFangSC-Regular;
+    letter-spacing: 0.29px;
+  }
+  span{
+    flex: 1;
+  }
+  .orderAmount {
+    font-size: 14px; /*no*/
+    opacity: 0.5;
+  }
+  .orderAmountNum {
+    font-size: 18px; /*no*/
+  }
+  .orderId, .orderNum, .orderPrice {
+    font-size: 10px; /*no*/
+    opacity: 0.5;
+  }
+  .orderStatus {
+    color: #4ca1f9;
+    font-size: 18px; /*no*/
+    line-height: 24px;
+  }
+}
+.footer{
+  width: 100%;
+  bottom: 0;
+  margin-top: 40px;
+  height: 50px;
+  background: #31313F;
+  display: flex;
+  .footerContent{
+    text-align: center;
+    flex: 1;
+    .saveBtn{
+      width:90%;
+      margin: 0 auto;
+      font-family: PingFangSC-Regular;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 14px; /*no*/
+      letter-spacing: 0.29px;
+      background-image: linear-gradient(131deg, #4CE6F9 0%, #4C54F9 100%);
+    }
+    .contactOther{
+      opacity: 0.5;
+      font-family: PingFangSC-Regular;
+      font-size: 10px; /*no*/
+      color: #FFFFFF;
+      letter-spacing: 0.19px;
+      text-align: center;
+    }
+  }
+}
